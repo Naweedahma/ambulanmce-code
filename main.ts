@@ -1,10 +1,5 @@
-radio.onReceivedNumber(function (receivedNumber) {
-    if (receivedNumber == 199) {
-    	
-    }
-})
 input.onButtonPressed(Button.A, function () {
-    radio.sendNumber(45)
+    radio.sendNumber(19)
 })
 input.onButtonPressed(Button.B, function () {
     radio.sendNumber(1)
